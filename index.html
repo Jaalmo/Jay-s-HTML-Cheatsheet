@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay's HTML Cheatsheet</title>
+    <link href="../css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content-container" id="heading">
+        <h1>Jay's HTML Cheatsheet</h1>
+        <div class="nav">
+            <ul>
+                <li><a href='#basic-tags'>Basic Tags</a></li>
+                <li><a href='#text-tags'>Text Tags</a></li>
+                <li><a href=#link-tags>Link Tags</a></li>
+                <li><a href=#format-tags>Format Tags</a></li>
+                <li><a href=#list-tags>List Tags</a></li>
+                <li><a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">More Tags</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-container" id="basic-tags">
+        <h2>Basic Tags</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                <tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">&lt;html&gt;</td>
+                    <td>HTML</td>
+                    <td>Creates an HTML document</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;head&gt;</td>
+                    <td>Header</td>
+                    <td>Sets off the title & other info that isn't displayed</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;body&gt;</td>
+                    <td>Body</td>
+                    <td>Sets off the visible portion of the document</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;title&gt;</td>
+                    <td>Title</td>
+                    <td> Puts name of the document in the title bar; when
+                        bookmarking pages, this is what is bookmarked</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="content-container" id="text-tags">
+        <h2>Text Tags</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                <tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">&lt;h1&gt; &lt;h6&gt;</td>
+                    <td>HTML</td>
+                    <td>Creates headlines -- H1=largest, H6=smallest</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;strong&gt;</td>
+                    <td>Bold</td>
+                    <td>Creates bold text</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;em&gt;</td>
+                    <td>Italic</td>
+                    <td>Creates italicised text</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="content-container" id="link-tags">
+        <h2>Link Tags</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                <tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">&lt;a&gt;href="URL">clickable text&lt;/a&gt;</td>
+                    <td>External Hyperlink</td>
+                    <td>Creates a hyperlink to a Uniform Resource Locator</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;a&gt;href="mailto:@EMAIL">text&lt;/a&gt;</td>
+                    <td>Email Hyperlink</td>
+                    <td>Creates a hyperlink to an email address</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;a&gt;href="#NAME">text&lt;/a&gt;</td>
+                    <td>Internal Hyperlink</td>
+                    <td>Creates a link to that target location</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="content-container" id="format-tags">
+        <h2>Formatting Tags</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                <tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">&lt;p&gt;</td>
+                    <td>Paragraph</td>
+                    <td>Creates a new paragraph</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;br&gt;</td>
+                    <td>Line Break</td>
+                    <td>Inserts a <a href="https://dictionary.cambridge.org/dictionary/english/line-break"
+                            target="_blank">line break</a></td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;blockquote&gt;</td>
+                    <td>Blockquote</td>
+                    <td>Puts content in a quote - indents text from both sides</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;div&gt;</td>
+                    <td>Divider</td>
+                    <td>Used to format block content with CSS</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;span&gt;</td>
+                    <td>Inline content</td>
+                    <td>Used to format inline content with CSS</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="content-container" id="list-tags">
+        <h2>List Tags</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                <tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code">&lt;ul&gt;</td>
+                    <td>Unordered List</td>
+                    <td>Creates an unordered list</td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;&gt;</td>
+                    <td>Ordered List</td>
+                    <td>Creates an ordered list </td>
+                </tr>
+                <tr>
+                    <td class="code">&lt;li&gt;</td>
+                    <td>List Item</td>
+                    <td>Encompasses each list item</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="content-container" id="footer">
+        <span>&copy; Jay Morris | 2024</span><br>
+        <span id="top"><a href=#heading>Top of Page</a></span>
+    </div>
+</body>
+
+</html>
