@@ -9,7 +9,6 @@ body {
 
 .content-container {
     width: 100%;
-    min-width: 813px;
     padding-top: 1px;
     padding-bottom: 50px;
     color: rgb(255, 150, 0);
@@ -41,6 +40,7 @@ body {
 }
 
 .content-container .nav ul {
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,6 @@ body {
     color: rgb(255, 150, 0);
     text-decoration: none;
 }
-
 
 .content-container h2 {
     font-size: 36px;
@@ -122,6 +121,7 @@ a {
 
 a:hover {
     color: rgb(255, 255, 255);
+    text-decoration: underline;
 }
 
 #top a {
